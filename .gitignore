@@ -30,3 +30,4 @@ coverage
 # custom
 /src/store.js
 /src/firebaseConfig.json
+.env
