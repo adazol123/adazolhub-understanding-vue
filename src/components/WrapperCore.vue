@@ -6,6 +6,6 @@
 
 <style scoped>
 .wrapper-core {
-  padding: 0 1rem;
+  margin: 0 1rem;
 }
 </style>

@@ -28,7 +28,7 @@ import AdazolhubLogo from "../icons/AdazolhubLogo.vue";
   @apply h-nav flex justify-between items-center -mt-6;
 }
 .modal {
-  @apply fixed top-0 bg-white dark:bg-gray-900/90 backdrop-blur  text-gray-800 w-full h-full p-6;
+  @apply fixed top-0 bg-gray-900/90 backdrop-blur  text-gray-800 w-full h-full p-6;
   @apply flex flex-col justify-between z-40 md:hidden;
 }
 
@@ -37,7 +37,7 @@ import AdazolhubLogo from "../icons/AdazolhubLogo.vue";
 }
 
 button {
-  @apply bg-transparent border-none p-2 dark:hover:bg-white/5 hover:bg-black/5 hover:text-accent-primary text-gray-400 rounded-full transition-transform;
+  @apply bg-transparent border-none p-2 hover:bg-white/5 hover:text-accent-primary text-gray-400 rounded-full transition-transform;
 }
 
 .footer {

@@ -18,8 +18,15 @@ button {
   @apply border rounded px-4 py-1 border-gray-soft bg-accent-primary text-gray-soft;
 }
 
+h1 {
+  @apply text-3xl;
+}
+h1 span {
+  @apply text-accent-primary;
+}
+
 .wrapper {
-  padding: 0 1.5rem;
+  margin: 0 1.5rem;
 }
 
 svg {
