@@ -29,7 +29,7 @@ import AdazolhubLogo from "../icons/AdazolhubLogo.vue";
 }
 .modal {
   @apply fixed top-0 bg-white dark:bg-gray-900/90 backdrop-blur  text-gray-800 w-full h-full p-6;
-  @apply flex flex-col justify-between;
+  @apply flex flex-col justify-between z-40 md:hidden;
 }
 
 .modal > ul {

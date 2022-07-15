@@ -9,10 +9,29 @@
   <button @click="store.toggle()">
     change {{ store.state?.toggleName.toString() }}
   </button>
+
+  <ButtonRiple class="ripple-btn" @click="ripleClick">
+    <PhoneIcon /> Contact us</ButtonRiple
+  >
 </template>
 
 <script setup>
 import { store } from "../../../store";
+import ButtonRiple from "../../UI/ButtonRiple.vue";
+import { PhoneIcon } from "@heroicons/vue/outline";
 
 console.log(import.meta.env);
+
+function ripleClick() {
+  console.log("click");
+}
 </script>
+
+<style scoped>
+.ripple-btn {
+  @apply px-8 py-2;
+}
+.ripple-btn svg {
+  @apply w-4 h-4;
+}
+</style>
